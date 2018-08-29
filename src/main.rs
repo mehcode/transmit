@@ -1,12 +1,4 @@
-#![feature(
-    uniform_paths,
-    pin,
-    async_await,
-    futures_api,
-    await_macro,
-    arbitrary_self_types,
-    underscore_imports
-)]
+#![feature(async_await, futures_api, await_macro,)]
 #![warn(rust_2018_idioms, future_incompatible)]
 
 use failure::Error;
