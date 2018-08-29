@@ -1,0 +1,14 @@
+cargo-features = ["edition", "rename-dependency"]
+
+[package]
+name = "transmit"
+version = "0.1.0-pre"
+authors = ["Ryan Leckey <leckey.ryan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = { version = "=0.3.0-alpha.3", package = "futures-preview" }
+futures01 = { version = "0.1", package = "futures" }
+tokio = { version = "0.1", package = "tokio-async-await" }
+hyper = "0.12"
+failure = "0.1"
